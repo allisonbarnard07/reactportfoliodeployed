@@ -1,6 +1,14 @@
 import React from "react";
 import { Container, Row } from "react-bootstrap";
 import Card from '../components/Card';
+import WoodDoor from '../assets/images/woodDoor.png';
+import employeeManagementSystem from '../assets/images/employeeManagementSystem.gif';
+import readMe from '../assets/images/readMe.gif';
+import websiteCleanup from '../assets/images/websiteCleanup.png';
+import buildAndFlex from '../assets/images/buildAndFlex.png';
+import passwordGenerator from '../assets/images/passwordGenerator.png';
+
+
 
 class Carousel extends React.Component {
   constructor(props) {
@@ -11,7 +19,7 @@ class Carousel extends React.Component {
           id: 0,
           title: "Wood Door",
           subTitle: "Job search application.",
-          imgSrc: './assets/images/woodDoor.png',
+          imgSrc: WoodDoor,
           link: "https://allisonbarnard07.github.io/Job-Search/",
           selected: false,
         },
@@ -19,7 +27,7 @@ class Carousel extends React.Component {
           id: 1,
           title: "Employee Management System",
           subTitle: "Employee Management System application.",
-          imgSrc: './assets/images/employeeManagementSystem.png',
+          imgSrc: employeeManagementSystem,
           link: "https://github.com/allisonbarnard07/employeeManagementSystem",
           selected: false,
         },
@@ -27,7 +35,7 @@ class Carousel extends React.Component {
           id: 2,
           title: "ReadMe Generator",
           subTitle: "ReadMe Generator application.",
-          imgSrc: './assets/images/readMe.png',
+          imgSrc: readMe,
           link: "https://github.com/allisonbarnard07/ReadMeGenerator",
           selected: false,
         },
@@ -35,7 +43,7 @@ class Carousel extends React.Component {
             id: 3,
             title: "Website Clean Up",
             subTitle: "A code clean up project.",
-            imgSrc: './assets/images/websiteCleanup.png',
+            imgSrc: websiteCleanup,
             link: "https://allisonbarnard07.github.io/website_cleanup/",
             selected: false,
           },
@@ -43,8 +51,16 @@ class Carousel extends React.Component {
             id: 4,
             title: "Build & Flex",
             subTitle: "A walking challenge application.",
-            imgSrc: './assets/images/buildAndFlex.png',
+            imgSrc: buildAndFlex,
             link: "https://buildandflex.herokuapp.com/",
+            selected: false,
+          },
+          {
+            id: 4,
+            title: "Password Generator",
+            subTitle: "An application where users can choose criteria from prompt to create a password.",
+            imgSrc: passwordGenerator,
+            link: "https://allisonbarnard07.github.io/password_generator/",
             selected: false,
           }
       ],
