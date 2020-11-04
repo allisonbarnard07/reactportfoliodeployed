@@ -8,8 +8,6 @@ import websiteCleanup from '../assets/images/websiteCleanup.png';
 import buildAndFlex from '../assets/images/buildAndFlex.png';
 import passwordGenerator from '../assets/images/passwordGenerator.png';
 
-
-
 class Carousel extends React.Component {
   constructor(props) {
     super(props);
