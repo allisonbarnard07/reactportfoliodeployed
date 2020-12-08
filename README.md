@@ -21,7 +21,6 @@ There are no tests currently. Please make sure to update tests as appropriate.
 ![home_page_image](/home.png)
 ![home_page_link_image](/links.png)
 ![about_page_image](/About.png)
-![contact_page_image](/contact.png)
 
 ## Collaborators
 
