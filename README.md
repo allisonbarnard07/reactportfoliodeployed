@@ -1,4 +1,4 @@
-# React Portfolio
+# Allion Barnard's Project Portfolio
 
 ## License
 
