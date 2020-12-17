@@ -1,4 +1,4 @@
-# Allion Barnard's Project Portfolio
+# Allison Barnard's Project Portfolio
 
 ## License
 
